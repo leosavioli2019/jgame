@@ -52,3 +52,27 @@ The first paramter is the id of the element, the second
 one is the start of the range, the third is the end, tje fourth
 is the width of the table, and the fifth is the height. And the last
 one is the style that will be aplicate to every number.
+
+You can also add a conditional with the special characte "$" the will be replaced
+by the actual number. Follow the example:
+
+```
+<range id="hello"></range>
+<script>
+  const color = "color: red;"
+  range("hello", 3, 3, 40, 40, `$ == 1 ? ${color} : ""`)
+</script>
+```
+
+## Camera
+
+To use the camera you can the function Start camera whith the paramters:
+id: the id element, audio: true or false and video: true or false.
+
+```
+<video id="hello"></video>
+<script>
+  StartCamera("hello", true, true)
+</script>
+```
+
