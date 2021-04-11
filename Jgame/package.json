@@ -1,0 +1,12 @@
+{
+  "name": "jgame",
+  "version": "1.0.0",
+  "description": "An node module for canvas",
+  "main": "jgame.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "index.html"
+  },
+  "author": "Leonardo Fuzzo Savioli",
+  "license": "MIT"
+}

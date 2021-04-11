@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>teste de video</title>
+</head>
+<body>
+    <div style="display: flex">
+       <pre><canvas id="olá"></canvas></pre>
+        <video id="a" autoplay></video>
+    </div>
+    <div style="display: flex">
+        <animation id="oi"></animation>
+        <range id="oi2"></range>
+    </div>
+    <script type="module">
+        import jgame from './jgame.js'
+        jgame.StartCamera('a', false, true)
+        jgame.fire('oi')
+        jgame.paint('olá', 600, 600)
+        jgame.range('oi2', 3, 3, 180, 180)
+    </script>
+</body>
+</html>
