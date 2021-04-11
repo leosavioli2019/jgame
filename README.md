@@ -11,7 +11,7 @@ To add jgame functions to your
 project you can use this code
 
 ```
-<script src="https://raw.githubusercontent.com/leosavioli2019/jgame/main/jgame.js?token=ASXNTDQNRBRDNAJHAHR7ISLANWOOK"></script>
+<script type="module" src="jgame.js"></script>
 ```
 
 # Examples
