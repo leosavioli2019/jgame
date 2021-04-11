@@ -23,7 +23,7 @@ a fire animation.
 
 ```
 <animation id="hello"></animation>
-<script>fire("hello")</script>
+<script>jgame.fire("hello")</script>
 ```
 
 ## Range
@@ -33,7 +33,7 @@ range
 
 ```
 <range id="hello"></range>
-<script>range("hello", 3, 3)</script>
+<script>jgame.range("hello", 3, 3)</script>
 ```
 
 and the result will be this:
@@ -47,7 +47,7 @@ If you want you can add a style:
 
 ```
 <range id="hello"></range>
-<script>range("hello", 3, 3, 40, 40, "color: red;")</script>
+<script>jgame.range("hello", 3, 3, 40, 40, "color: red;")</script>
 ```
 
 The first paramter is the id of the element, the second
@@ -62,7 +62,7 @@ by the actual number. Follow the example:
 <range id="hello"></range>
 <script>
   const color = "color: red;"
-  range("hello", 3, 3, 40, 40, `$ == 1 ? ${color} : ""`)
+  jgame.range("hello", 3, 3, 40, 40, `$ == 1 ? ${color} : ""`)
 </script>
 ```
 
@@ -74,7 +74,7 @@ id: the id element, audio: true or false and video: true or false.
 ```
 <video id="hello"></video>
 <script>
-  StartCamera("hello", true, true)
+  jgame.StartCamera("hello", true, true)
 </script>
 ```
 
