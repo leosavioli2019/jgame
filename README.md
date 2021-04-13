@@ -3,7 +3,7 @@
 Jgame is a javascript front-end library, to do
 animations, and add more tags for the classic html.
 
-[Vídeo](https://user-images.githubusercontent.com/78567822/114559973-a1b99200-9c42-11eb-9834-101c9b0dc509.mp4
+![Vídeo](https://user-images.githubusercontent.com/78567822/114559973-a1b99200-9c42-11eb-9834-101c9b0dc509.mp4
 
 # Link
 
